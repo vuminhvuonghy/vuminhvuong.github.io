@@ -8,4 +8,7 @@ Item {
     Loader{
         source: "qml/qmlfile1.qml"
     }
+    Component.onCompleted: {
+        console.log(" started !!!")
+    }
 }
